@@ -1726,3 +1726,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     odm_firmware_wireless_pen_25927_mt5806_firmware_bin
+
+PRODUCT_COPY_FILES += \
+    vendor/oneplus/iceland/proprietary/odm/etc/temperature_profile/sys_thermal_control_config.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_thermal_control_config.xml \
+    vendor/oneplus/iceland/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
