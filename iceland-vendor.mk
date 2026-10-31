@@ -1696,7 +1696,6 @@ PRODUCT_PACKAGES += \
     libopluspdparam \
     liboprec_audrec \
     liboprec_audrec_wrapper \
-    libosensenativeproxy_client_iceland \
     libosie \
     libosie_process \
     liboutils \

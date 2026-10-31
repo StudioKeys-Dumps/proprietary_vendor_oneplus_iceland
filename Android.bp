@@ -16601,7 +16601,7 @@ cc_prebuilt_library_shared {
                 "libhardware",
                 "libbinder_ndk",
                 "liboplus-uah-client",
-                "libosensenativeproxy_client_iceland",
+                "libosensenativeproxy_client",
                 "libhwconfigurationutil",
                 "libjsoncpp",
                 "libc++",
@@ -16839,35 +16839,6 @@ cc_prebuilt_library_shared {
                 "libc",
                 "liblog",
                 "liboprec_audrec",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libosensenativeproxy_client_iceland",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/libosensenativeproxy_client_iceland.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libbinder_ndk",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
             ],
         },
     },
