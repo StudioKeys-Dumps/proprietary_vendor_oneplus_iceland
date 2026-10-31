@@ -151,7 +151,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/Vega_Detect_BodyHead_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Detect_BodyHead_Gray.model \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/Vega_Detect_CommonFace_BGR.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Detect_CommonFace_BGR.model \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/Vega_Detect_CommonFace_BGR_PZ.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Detect_CommonFace_BGR_PZ.model \
+    vendor/oneplus/iceland/proprietary/odm/etc/camera/Vega_Detect_Head_BGR.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Detect_Head_BGR.model \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/Vega_Front_Align_occlusion.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Front_Align_occlusion.model \
+    vendor/oneplus/iceland/proprietary/odm/etc/camera/Vega_Refine_Head.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Refine_Head.model \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/Vega_Refine_RectQuality_AllAnimalBodyFaceEye_BGR.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Refine_RectQuality_AllAnimalBodyFaceEye_BGR.model \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/Vega_Refine_RectQuality_AnimalBodyFaceEye.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Refine_RectQuality_AnimalBodyFaceEye.model \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/Vega_Refine_RectQuality_AnimalBodyFaceEye_BGR.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Refine_RectQuality_AnimalBodyFaceEye_BGR.model \
@@ -159,6 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/Vega_Track_AnimalsBodyFaceEye_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Track_AnimalsBodyFaceEye_Gray.model \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/Vega_Track_FaceRect20cls.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Track_FaceRect20cls.model \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/Vega_Track_FaceRect20cls_snap.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Track_FaceRect20cls_snap.model \
+    vendor/oneplus/iceland/proprietary/odm/etc/camera/Vega_Track_Head_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Track_Head_Gray.model \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/Vega_Track_HumanBody_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Track_HumanBody_Gray.model \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/aiboost_qnn_htp2.7.2_16382673562495086299.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aiboost_qnn_htp2.7.2_16382673562495086299.bin \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/aiboost_qnn_htp2.7.2_828413902960689361.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aiboost_qnn_htp2.7.2_828413902960689361.bin \
@@ -1187,7 +1190,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/lighthousefront_1.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/lighthousefront_1.pb \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/macanExFront_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/macanExFront_4.pb \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/macanFront_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/macanFront_4.pb \
+    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/mariofront_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/mariofront_3.pb \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/qfdserviceconfig.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/qfdserviceconfig.bin \
+    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/redalertfront_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/redalertfront_3.pb \
+    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/starcraftExFront_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/starcraftExFront_4.pb \
+    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/starcraftFront_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/starcraftFront_4.pb \
+    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/starcraftrfront_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/starcraftrfront_4.pb \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/swangoosefrontmain_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/swangoosefrontmain_3.pb \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/swangoosefrontsub_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/swangoosefrontsub_4.pb \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/u9bfront_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/u9bfront_4.pb \
@@ -1521,6 +1529,7 @@ PRODUCT_PACKAGES += \
     libQnnHtpPrepare.aiframe \
     libQnnHtpV81Stub.aiframe \
     libQnnSystem.aiframe \
+    libaiboost_litert \
     libaiboost_qnn_external_delegate.aiframe \
     libqcom_llm \
     libtransformer_lite \
