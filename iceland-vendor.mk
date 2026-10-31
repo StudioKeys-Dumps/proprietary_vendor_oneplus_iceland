@@ -1555,6 +1555,7 @@ PRODUCT_PACKAGES += \
     libcamxoemsatsoftwarefusionwrapper \
     libcamxoemsatwrapper \
     com.oplus.mcx.linearmapper \
+    camera.oemlayer.v2 \
     lib2DSlender \
     libAECParamParser \
     libAF \
