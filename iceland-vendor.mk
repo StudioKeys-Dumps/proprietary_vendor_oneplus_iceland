@@ -128,8 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/AIAE_Models/AIAEVideoModelTele.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAE_Models/AIAEVideoModelTele.bin \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/AIAE_Models/AIAEVideoModelTeleDownSample.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAE_Models/AIAEVideoModelTeleDownSample.bin \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/AIAE_Models/AIAEVideoModelWide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAE_Models/AIAEVideoModelWide.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/AiFace.json:$(TARGET_COPY_OUT_ODM)/etc/camera/AiFace.json \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/BodySeg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/BodySeg.json \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/DitherTabU8:$(TARGET_COPY_OUT_ODM)/etc/camera/DitherTabU8 \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/OplusMultiDefault.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/OplusMultiDefault.xml \
@@ -165,685 +163,28 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/Vega_Track_HumanBody_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Track_HumanBody_Gray.model \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/aiboost_qnn_htp2.7.2_16382673562495086299.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aiboost_qnn_htp2.7.2_16382673562495086299.bin \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/aiboost_qnn_htp2.7.2_828413902960689361.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aiboost_qnn_htp2.7.2_828413902960689361.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/aigc/aigc_models/blurDet_sm8850.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/blurDet_sm8850.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/aigc/aigc_models/faceSeg_sm8850.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/faceSeg_sm8850.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/aigc/aigc_models/gfpgan1024_sm8850.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/gfpgan1024_sm8850.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/aigc/libs/libODNN.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libODNN.so \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/aigc/libs/libOPAlgoCamAIGCFace.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libOPAlgoCamAIGCFace.so \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/aigc/libs/libzlib.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libzlib.so \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/anc/fusion_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/anc/fusion_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model_post \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel.cache \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/ancsegbase/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/anc_cl_kernel.cache \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/ancsegbase/model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/model.data \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/asd/ai_perception_scene_detect.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/ai_perception_scene_detect.bin \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/asd/class.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/class.dlc \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/asd/class_fullfov.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/class_fullfov.dlc \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/asd/detect.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/detect.dlc \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/BaseLut:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/BaseLut \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM16Lut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM16Lut0 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM16Lut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM16Lut1 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM16Lut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM16Lut2 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM16Lut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM16Lut3 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM16Lut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM16Lut4 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM16Lut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM16Lut5 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM16Lut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM16Lut6 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM16Lut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM16Lut7 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM16Lut8:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM16Lut8 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut0 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut1 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut2 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut3 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut4 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut5 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut6 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut7 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/CWCM32Lut8:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/CWCM32Lut8 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/LMTLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/LMTLut0 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/LMTLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/LMTLut1 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/LMTLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/LMTLut2 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/LMTLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/LMTLut3 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut0 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut1 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut2 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut3 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut4 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut5 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut6 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor0/LMTLut7 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut0 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut1 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut2 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut3 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut4 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut5 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut6 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor1/LMTLut7 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut0 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut1 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut2 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut3 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut4 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut5 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut6 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor2/LMTLut7 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut0 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut1 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut2 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut3 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut4 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut5 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut6 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/Photo/Sensor3/LMTLut7 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC16Lut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC16Lut0 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC16Lut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC16Lut1 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC16Lut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC16Lut2 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC16Lut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC16Lut3 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC16Lut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC16Lut4 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC16Lut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC16Lut5 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC16Lut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC16Lut6 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC16Lut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC16Lut7 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC16Lut8:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC16Lut8 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC32Lut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut0 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC32Lut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut1 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC32Lut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut2 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC32Lut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut3 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC32Lut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut4 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC32Lut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut5 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC32Lut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut6 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC32Lut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut7 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SC32Lut8:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SC32Lut8 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SCLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut0 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SCLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut1 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SCLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut2 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SCLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut3 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SCLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut4 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SCLut5:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut5 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SCLut6:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut6 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SCLut7:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut7 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/lmt/SCLut8:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/lmt/SCLut8 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/odt/ODT_Dolby:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/odt/ODT_Dolby \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/odt/ODT_Photo:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/odt/ODT_Photo \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/odt/ODT_Pre:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/odt/ODT_Pre \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/odt/ODT_Video:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/odt/ODT_Video \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/setting/Ditherout:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/Ditherout \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/setting/FromXml:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/FromXml \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/setting/SimTool.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/SimTool.ini \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/setting/SimTool_Dolby.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/SimTool_Dolby.ini \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/setting/SimTool_Master.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/SimTool_Master.ini \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/setting/SimTool_Photo_Master.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/SimTool_Photo_Master.ini \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/setting/SimTool_Photo_Normal.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/SimTool_Photo_Normal.ini \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/setting/TriggerBIN:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/TriggerBIN \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/setting/TriggerBINPhoto_Sensor0:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/TriggerBINPhoto_Sensor0 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/setting/TriggerBINPhoto_Sensor1:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/TriggerBINPhoto_Sensor1 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/setting/TriggerBINPhoto_Sensor2:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/TriggerBINPhoto_Sensor2 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/setting/TriggerBINPhoto_Sensor3:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/TriggerBINPhoto_Sensor3 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/setting/TriggerBINPhoto_Sensor4:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting/TriggerBINPhoto_Sensor4 \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/setting_dolby/FromXml:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting_dolby/FromXml \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/setting_dolby/SimTool.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/setting_dolby/SimTool.ini \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/vig/VigTab_Main:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_Main \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/vig/VigTab_Tele:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_Tele \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/vig/VigTab_UTele:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_UTele \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/basictone/vig/VigTab_Wide:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_Wide \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/camera_engmode.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/camera_engmode.xml \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/capture_bokeh_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_bokeh_params.json \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/capture_lutportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_lutportrait_params.json \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/capture_neonportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_neonportrait_params.json \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/cfr_bin/CFR_icelandfront.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_icelandfront.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/cfr_bin/CFR_icelandmain.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_icelandmain.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_feature_config.protobuf \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/config/icelandfront:$(TARGET_COPY_OUT_ODM)/etc/camera/config/icelandfront \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/config/icelandmain:$(TARGET_COPY_OUT_ODM)/etc/camera/config/icelandmain \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/config/oplus_camera_algo_traversal_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_traversal_config.json \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/config/oplus_camera_preview_decision_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_preview_decision_config.json \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/config/oplus_preview_decision_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_preview_decision_params.json \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/config/quick_visibility_white_list:$(TARGET_COPY_OUT_ODM)/etc/camera/config/quick_visibility_white_list \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/config/video_ai_proc_cfg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_ai_proc_cfg.json \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/distortionParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/distortionParams.bin \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/dolby_vainr_cfg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/dolby_vainr_cfg.json \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/eis_camera.vcfg \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/InitParams.json:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/InitParams.json \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/BDET.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/BDET.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/DB.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/DB.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/FS.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/FS.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/F_C.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/F_C.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/F_SE_A.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/F_SE_A.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/F_SE_B.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/F_SE_B.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/F_SL_A.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/F_SL_A.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/F_SL_B.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/F_SL_B.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/GROUP_D.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/GROUP_D.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/RM_GP_A.bix:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_GP_A.bix \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/RM_SE_A.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SE_A.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/RM_SE_B.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SE_B.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/RM_SE_C.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SE_C.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/RM_SL_A.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SL_A.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/RM_SL_B.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SL_B.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/RM_SL_C.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SL_C.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/RT_A.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RT_A.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/RT_B.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RT_B.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/RT_C.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RT_C.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/facerestore/fr_models/RT_D.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RT_D.bin \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_default \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/000.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/000_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/000_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/001.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/001.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/001_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/001_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/001_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/001_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/002.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/002.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/002_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/002_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/002_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/002_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/003.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/003.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/003_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/003_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/003_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/003_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/010.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/010.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/010_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/010_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/010_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/010_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/011.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/011.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/011_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/011_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/011_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/011_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/012.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/012.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/012_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/012_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/012_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/012_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/013.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/013.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/100.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/100.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/100_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/100_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/100_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/100_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/101.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/101.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/101_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/101_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/101_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/101_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/102.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/102.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/102_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/102_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/102_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/102_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/103.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/103.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/103_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/103_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/103_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/103_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/110.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/110.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/110_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/110_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/110_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/110_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/111.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/111.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/111_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/111_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/111_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/111_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/112.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/112.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/112_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/112_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/112_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/112_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/113.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/113.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/200.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/200.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/200_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/200_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/200_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/200_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/201.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/201.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/201_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/201_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/201_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/201_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/202.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/202.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/202_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/202_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/202_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/202_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/203.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/203.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/203_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/203_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/203_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/203_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/210.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/210.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/210_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/210_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/210_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/210_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/211.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/211.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/211_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/211_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/211_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/211_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/212.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/212.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/212_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/212_pre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/212_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/212_pre.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/213.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/213.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/AIdeblemishSnapMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/AIdeblemishSnapMask.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/AIdeblemishSnapMask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/AIdeblemishSnapMask.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/AIdeblemishSnapMask2.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/AIdeblemishSnapMask2.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/SkinLUT_00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_00.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/SkinLUT_01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_01.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/SkinLUT_02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_02.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/SkinLUT_03.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_03.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/SkinLUT_10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_10.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/SkinLUT_11.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_11.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/SkinLUT_12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_12.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/SkinLUT_13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_13.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/SkinLUT_BW.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_BW.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/SkinLUT_Red.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_Red.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/beauty_body.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/beauty_body.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/brightLut.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/brightLut.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/brightLut.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/brightLut.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/eyeBright.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyeBright.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/eye_retouch_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eye_retouch_chinese.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/eyesMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMask.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/eyesMask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMask.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/eyesMaskNew.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMaskNew.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/eyesMaskNew.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMaskNew.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/faceLipsMaskPre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/faceLipsMaskPre.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/face_aisceCct_chinese.odnn:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_aisceCct_chinese.odnn \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/face_aisceCct_chinese_hdr.odnn:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_aisceCct_chinese_hdr.odnn \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/face_aisce_chinese.odnn:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_aisce_chinese.odnn \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/face_aisce_chinese_hdr.odnn:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_aisce_chinese_hdr.odnn \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/face_eyeRed_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_eyeRed_chinese.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/face_eyeRed_chinese_hdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_eyeRed_chinese_hdr.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/face_faceshadow_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_faceshadow_chinese.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/face_faceshadow_chinese_HDR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_faceshadow_chinese_HDR.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/face_facewarp_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_facewarp_chinese.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/face_retouch_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_retouch_chinese.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/face_retouch_chinese_HDR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_retouch_chinese_HDR.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/face_retouch_pre_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_retouch_pre_chinese.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/face_retouch_pre_chinese_wechat.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_retouch_pre_chinese_wechat.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/faceshine_base.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/faceshine_base.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/faceshine_base_hdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/faceshine_base_hdr.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/mouthmask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/mouthmask.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/preSkinmask137.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/preSkinmask137.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/preSkinmask137.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/preSkinmask137.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/preSkinmask296.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/preSkinmask296.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/redToneLut.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/redToneLut.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/redToneLut.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/redToneLut.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUT_white_Bright.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUT_white_Bright.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs00.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs01.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs02.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs03.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs03.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs04.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs04.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs05.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs05.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs06.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs06.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs10.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs11.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs11.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs12.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs13.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_00.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_01.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_02.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_03.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_03.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_10.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_11.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_11.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_12.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_13.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinmask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinmask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/skinmask_new.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask_new.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapEyeBright.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapEyeBright.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapEyeMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapEyeMask.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapEyeMask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapEyeMask.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapFemale000.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale000.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapFemale001.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale001.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapFemale002.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale002.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapFemale003.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale003.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapFemale100.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale100.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapFemale101.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale101.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapFemale102.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale102.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapFemale103.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale103.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapFemale200.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale200.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapFemale201.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale201.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapFemale202.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale202.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapFemale203.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale203.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapMale010.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale010.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapMale011.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale011.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapMale012.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale012.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapMale110.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale110.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapMale111.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale111.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapMale112.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale112.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapMale113.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale113.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapMale210.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale210.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapMale211.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale211.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapMale212.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale212.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapMale213.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale213.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapMouthMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMouthMask.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/snapSkinmask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapSkinmask.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/unify_skin_base.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/unify_skin_base.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/unify_skin_base_hdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/unify_skin_base_hdr.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/whiteToneLut.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/whiteToneLut.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_model/whiteToneLut.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/whiteToneLut.png \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/fb_original:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_original \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/B1VLf4peM:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1VLf4peM \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/B1aMqioxf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1aMqioxf \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/B1nmcmWbG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1nmcmWbG \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/B1si_XbZz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1si_XbZz \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/B612Pretty.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B612Pretty.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/BJJAwoigM:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BJJAwoigM \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/BJyKIwqxz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BJyKIwqxz \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/ByW7g4bbf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ByW7g4bbf \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ByYo3If \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/BycYf7WWz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BycYf7WWz \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/Cold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Cold.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/Delta400.3dl.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Delta400.3dl.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/Emerald.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Emerald.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/EyxRbD2UCe:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/EyxRbD2UCe \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/FaceappGrayscale.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/FaceappGrayscale.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/InsClarendon.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/InsClarendon.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/InsJuno.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/InsJuno.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/InsValencia-2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/InsValencia-2.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/LMT_6_D65_33.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/LMT_6_D65_33.cube \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/Martin.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Martin.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/ODT_2020_PQ10000nits-P3_srgb,roll-off_33_ver5.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ODT_2020_PQ10000nits-P3_srgb,roll-off_33_ver5.cube \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/OPLUSR0604.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/OPLUSR0604.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/PP1-soft-2.6.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/PP1-soft-2.6.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/PP2-pop-4.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/PP2-pop-4.1.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/PP3-mono-3.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/PP3-mono-3.3.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/Radiance.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Radiance.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/SJ3mbr6ef:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SJ3mbr6ef \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/Serenity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Serenity.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/SkpZ8ebbz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SkpZ8ebbz \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/SnapseedBright.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SnapseedBright.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/Sy4uLSTgf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Sy4uLSTgf \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/Syt2KeZZf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Syt2KeZZf \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/Texture-70.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Texture-70.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/VigTab_Main:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/VigTab_Main \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/VigTab_Tele:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/VigTab_Tele \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/VigTab_UTele:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/VigTab_UTele \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/VigTab_Wide:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/VigTab_Wide \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/White.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/White.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/black_gold.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/blackandwhite.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/blackandwhite.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/bowu-2.1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/bowu-2.1.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/bright_coloured.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/bright_coloured.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/bt2020_hlg_to_p3_srgb_3dlut_light.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/bt2020_hlg_to_p3_srgb_3dlut_light.cube \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/bt2020_to_p3_3dlut.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/bt2020_to_p3_3dlut.cube \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/bt709_srgb_to_bt2020_hlg_3dlut_light.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/bt709_srgb_to_bt2020_hlg_3dlut_light.cube \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/bt709_srgb_to_p3_srgb_3dlut_light.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/bt709_srgb_to_p3_srgb_3dlut_light.cube \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/calm-V5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/calm-V5.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/candy-P7.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/candy-P7.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/cola.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/cola.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/cyberpunk-neoMilitarism-2.4-final.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/cyberpunk-neoMilitarism-2.4-final.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/default:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/default \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/delight-P3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/delight-P3.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/delight-V1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/delight-V1.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/dolby_preview_3dlut.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/dolby_preview_3dlut.cube \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/dolby_preview_hdr_3dlut.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/dolby_preview_hdr_3dlut.cube \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/dolby_preview_sdr_3dlut.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/dolby_preview_sdr_3dlut.cube \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/drjw1994.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/drjw1994.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/drjw2010.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/drjw2010.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/empty_33.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/empty_33.cube \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/f_bin_hideaki:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_bin_hideaki \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/f_candy_water_weak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_candy_water_weak.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/f_contrast_gray_face_dark:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_contrast_gray_face_dark \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/f_fuji_strong.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_fuji_strong.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/f_japan_strong.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_japan_strong.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/farewell-V7.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/farewell-V7.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/fuji.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/fuji.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gourmet.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gourmet.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-24hour-city.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-24hour-city.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-3dcity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-3dcity.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-after-glow.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-after-glow.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-azure-water.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-azure-water.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-beach.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-beach.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-blue-water.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-blue-water.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-coco-grove.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-coco-grove.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-crisp-fall.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-crisp-fall.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-desert.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-desert.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-earth.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-earth.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-glazed-tile.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-glazed-tile.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-japan.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-japan.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-lake.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-lake.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-mountainous.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-mountainous.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-old-times.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-old-times.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-quietly-ele.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-quietly-ele.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-rosy.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-rosy.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/gt-steaming.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-steaming.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/interstellar_space.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/interstellar_space.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/jw_surprise.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jw_surprise.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/kodak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/kodak.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/log_video_hdr_3dlut.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/log_video_hdr_3dlut.cube \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/log_video_sdr_3dlut.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/log_video_sdr_3dlut.cube \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/lvtu-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/lvtu-2.0.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/masterlut/FromXml:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/masterlut/FromXml \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/masterlut/ODT_Photo:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/masterlut/ODT_Photo \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/masterlut/SimTool.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/masterlut/SimTool.ini \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/meiwei-2.2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/meiwei-2.2.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/mellow-V3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/mellow-V3.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/misty-P5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/misty-P5.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/misty-V4.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/misty-V4.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/mono.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/mono.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/morandi.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/morandi.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/natural-P1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/natural-P1.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/natural.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/natural.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/neon-2020.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/neon-2020.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus-black-gold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-black-gold.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus-cyberpunk.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-cyberpunk.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus-nightcity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-nightcity.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus-r-black-gold-1.1-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-r-black-gold-1.1-RGB.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus-r-cyberpunk-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-r-cyberpunk-RGB.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus-r-infra-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-r-infra-RGB.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus-yellow-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-yellow-blue.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_SAREK_III.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_SAREK_III.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_VAEROY_III.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_VAEROY_III.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_YLLAAS.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_YLLAAS.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_r4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_r4.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_r5.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_r5.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_r6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_r6.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_black_and_white:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_black_and_white \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_highlight:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_highlight \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_ins:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_ins \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_natal:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_natal \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_olympus:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_olympus \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_plain:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_plain \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_show:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_show \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_solar:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_solar \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_strong:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_strong \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_west:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_west \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/p3_srgb_to_bt2020_hlg_3dlut_light.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p3_srgb_to_bt2020_hlg_3dlut_light.cube \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/p3_to_bt2020_3dlut.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p3_to_bt2020_3dlut.cube \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/p3_to_bt2020_3dlut_light.cube:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p3_to_bt2020_3dlut_light.cube \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/p4_1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_1.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/p4_2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_2.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/p4_3.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_3.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/p4_4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_4.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/qiuri-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/qiuri-2.0.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/r1JaFSZZG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/r1JaFSZZG \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/r1PrfoolG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/r1PrfoolG \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/rJ5g5vPWG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rJ5g5vPWG \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/rJxJtmaez:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rJxJtmaez \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/red-red.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/red-red.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/rkMhq4ZWf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rkMhq4ZWf \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/rkx5u4Zbf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rkx5u4Zbf \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/senlin-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/senlin-2.0.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/serene-P9.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/serene-P9.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/sky-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/sky-blue.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/sweet-P2.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/sweet-P2.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/sweet-V2.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/sweet-V2.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/tree-green.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/tree-green.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/type_fuji_acros:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_acros \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/type_fuji_astia:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_astia \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/type_fuji_chrome:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_chrome \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/type_fuji_provia:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_provia \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/type_fuji_velvia:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_velvia \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/vivid-cool.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/vivid-cool.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/vivid-lut.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/vivid-lut.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/vivid-warm.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/vivid-warm.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_res/film_grain_small.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/film_grain_small.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_res/lut_all_points.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/lut_all_points.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/filters_res/overlay_p4_3_weak.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/overlay_p4_3_weak.png \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/gesture/modules/tt_hand_det_v11.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_det_v11.0.model \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/gesture/modules/tt_hand_gesture_v11.1.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_gesture_v11.1.model \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/gesture/tt_hand_box_reg_v12.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_box_reg_v12.0.model \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/gesture/tt_hand_det_v11.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_det_v11.0.model \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/gesture/tt_hand_gesture_v11.1.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_gesture_v11.1.model \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/gesture/tt_hand_kp_v6.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_kp_v6.0.model \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/gesture/tt_hand_lr_v3.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_lr_v3.0.model \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/main_inv_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/main_inv_mapxy_33x25.bin \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/main_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/main_mapxy_33x25.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/media_profiles.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/media_profiles.xml \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/800t_blues.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_blues.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/800t_hdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_hdr.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/800t_master.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_master.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/800t_sdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_sdr.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/ByYo3If \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/Cold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Cold.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/DL_A_MoneyBall.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_A_MoneyBall.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/DL_B_Inception.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_B_Inception.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/DL_C_R3_80.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_C_R3_80.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/DL_D_G4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_D_G4.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/DL_L_B6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_L_B6.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/Delta400.3dl.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Delta400.3dl.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/Emerald.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Emerald.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/Fuji.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Fuji.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/Kodak.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Kodak.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/Martin.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Martin.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/Moonlight.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Moonlight.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/OPLUSR0604.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/OPLUSR0604.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/Radiance.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Radiance.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/Serenity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Serenity.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/Texture-70.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Texture-70.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/White.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/White.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/black_gold.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/blackandwhite_0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_0.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/blackandwhite_1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_1.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_master.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_hdr_master.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_master_0.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_hdr_master_0.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_master_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_hdr_master_1.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal_0.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal_0.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_hdr_normal_1.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_master.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_master.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_normal.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_normal.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_sdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_sdr.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_sdr_0.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_sdr_0.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/blackandwhite_HC_sdr_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_HC_sdr_1.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/bright_coloured.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/bright_coloured.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/ccd_base_cold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/ccd_base_cold.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/ccd_base_warm.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/ccd_base_warm.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/city.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/city.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/cola.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cola.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/drjw1994.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/drjw1994.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/drjw2010.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/drjw2010.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/fuji-cc-high.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-cc-high.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/fuji-cc-low.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-cc-low.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/fuji-nc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-nc.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/fuji-nc_master.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-nc_master.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/fuji-proNegHi.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-proNegHi.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/fuji-proNegHi_master.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-proNegHi_master.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/fuji.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/fuji_cc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji_cc.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/fuji_cc_master.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji_cc_master.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gourmet.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gourmet.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gr.bw.rgba.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gr.bw.rgba.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gr.hi.bw.rgba.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gr.hi.bw.rgba.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gr.nega.rgba.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gr.nega.rgba.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gr.posi.rgba.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gr.posi.rgba.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gt-24hour-city.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-24hour-city.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gt-3dcity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-3dcity.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gt-after-glow.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-after-glow.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gt-azure-water.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-azure-water.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gt-beach.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-beach.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gt-blue-water.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-blue-water.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gt-coco-grove.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-coco-grove.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gt-crisp-fall.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-crisp-fall.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gt-desert.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-desert.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gt-glazed-tile.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-glazed-tile.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gt-mountainous.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-mountainous.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gt-old-times.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-old-times.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/interstellar_space.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/interstellar_space.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/island.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/island.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/jzk-movie.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jzk-movie.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/kodak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/kodak.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/meicam.child.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/meicam.child.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/mono.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mono.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/mono_0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mono_0.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/mono_1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mono_1.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/morandi.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/morandi.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/mountains.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mountains.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/natural.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/natural.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/neon-2020.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/neon-2020.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/oplus-black-gold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-black-gold.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/oplus-cyberpunk.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-cyberpunk.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/oplus-nightcity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-nightcity.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/oplus-yellow-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-yellow-blue.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/p4_1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/p4_1.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/p4_3.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/p4_3.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/portra400_hdr_master_a_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_hdr_master_a_1.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/portra400_hdr_master_d_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_hdr_master_d_1.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/portra400_hdr_normal_a_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_hdr_normal_a_1.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/portra400_hdr_normal_d_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_hdr_normal_d_1.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/portra400_master.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_master.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/portra400_normal.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_normal.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/portra400_sdr_gen_a_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_sdr_gen_a_1.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/portra400_sdr_gen_d_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/portra400_sdr_gen_d_1.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/positive_hdr_master_a_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/positive_hdr_master_a_1.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/positive_hdr_master_d_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/positive_hdr_master_d_1.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/positive_hdr_normal_a_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/positive_hdr_normal_a_1.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/positive_hdr_normal_d_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/positive_hdr_normal_d_1.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/positive_master.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/positive_master.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/positive_normal.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/positive_normal.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/positive_sdr_gen_a_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/positive_sdr_gen_a_1.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/positive_sdr_gen_d_1.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/positive_sdr_gen_d_1.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/rJ5g5vPWG:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/rJ5g5vPWG \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/red-red.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/red-red.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/sky-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/sky-blue.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/tree-green.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/tree-green.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/model/DocDetectV15.xbin:$(TARGET_COPY_OUT_ODM)/etc/camera/model/DocDetectV15.xbin \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/model_fdc.data:$(TARGET_COPY_OUT_ODM)/etc/camera/model_fdc.data \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/mvg_sat_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/mvg_sat_config.json \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/neon_yuv_LUT_64.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/neon_yuv_LUT_64.bin \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/oplus_eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_eis_camera.vcfg \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/oplus_seg_sdk/oppseg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_seg_sdk/oppseg.json \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/oplus_seg_sdk/oppseg_q.dlx:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_seg_sdk/oppseg_q.dlx \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/oplus_seg_sdk/petseg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_seg_sdk/petseg.json \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/oplus_seg_sdk/petseg_q.dlx:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_seg_sdk/petseg_q.dlx \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/oplus_seg_sdk/seg_cl_binary_SM8850.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_seg_sdk/seg_cl_binary_SM8850.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/oplus_seg_sdk/segmode.json:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_seg_sdk/segmode.json \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/PreCalVarBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreCalVarBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/PreHighPassBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHighPassBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/PreHighPassPreBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHighPassPreBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/PreHoriFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHoriFilterBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/PreMakeupBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMakeupBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/PreMakeupMultiFaceBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMakeupMultiFaceBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/PreMakeupSingleFaceBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMakeupSingleFaceBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/PreMorphBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMorphBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/PreOnlywhitenBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreOnlywhitenBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/PreSkintuneBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSkintuneBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/PreSkintuneMRTBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSkintuneMRTBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/PreSurfaceBlurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSurfaceBlurBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/PreVertFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreVertFilterBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/PreVertSurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreVertSurBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreHoriFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreHoriFilterBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreMorphBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreMorphBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreOnlywhitenBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreOnlywhitenBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/qnn_binary_9052758122668408981.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/qnn_binary_9052758122668408981.bin \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/salient2_seg.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/salient2_seg.bin \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/self_ois.ocfg:$(TARGET_COPY_OUT_ODM)/etc/camera/self_ois.ocfg \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/selfbokehParam.json:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehParam.json \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehmodel.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/settings_fdc_lite.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc_lite.txt \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/singleblur/personseg.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/personseg.bin \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/singleblur/preview_seg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/preview_seg.json \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/M_SenseME_Action_5.2.12.model \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/sticker/material/animoji/data.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/data.zip \
-    vendor/oneplus/iceland/proprietary/odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/tele_inv_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/tele_inv_mapxy_33x25.bin \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/tele_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/tele_mapxy_33x25.bin \
     vendor/oneplus/iceland/proprietary/odm/etc/camera/text_enhance_yuv_v1.tflite:$(TARGET_COPY_OUT_ODM)/etc/camera/text_enhance_yuv_v1.tflite \
@@ -922,16 +263,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/iceland/proprietary/odm/firmware/fastchg/25927/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/25927/charging_thermal_config_default.txt \
     vendor/oneplus/iceland/proprietary/odm/firmware/fastchg/25978/charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/25978/charging_hyper_mode_config.txt \
     vendor/oneplus/iceland/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
-    vendor/oneplus/iceland/proprietary/odm/firmware/secure_ta/antdtx.b00:$(TARGET_COPY_OUT_ODM)/firmware/secure_ta/antdtx.b00 \
-    vendor/oneplus/iceland/proprietary/odm/firmware/secure_ta/antdtx.b01:$(TARGET_COPY_OUT_ODM)/firmware/secure_ta/antdtx.b01 \
-    vendor/oneplus/iceland/proprietary/odm/firmware/secure_ta/antdtx.b02:$(TARGET_COPY_OUT_ODM)/firmware/secure_ta/antdtx.b02 \
-    vendor/oneplus/iceland/proprietary/odm/firmware/secure_ta/antdtx.b03:$(TARGET_COPY_OUT_ODM)/firmware/secure_ta/antdtx.b03 \
-    vendor/oneplus/iceland/proprietary/odm/firmware/secure_ta/antdtx.b04:$(TARGET_COPY_OUT_ODM)/firmware/secure_ta/antdtx.b04 \
-    vendor/oneplus/iceland/proprietary/odm/firmware/secure_ta/antdtx.b05:$(TARGET_COPY_OUT_ODM)/firmware/secure_ta/antdtx.b05 \
-    vendor/oneplus/iceland/proprietary/odm/firmware/secure_ta/antdtx.b06:$(TARGET_COPY_OUT_ODM)/firmware/secure_ta/antdtx.b06 \
-    vendor/oneplus/iceland/proprietary/odm/firmware/secure_ta/antdtx.b07:$(TARGET_COPY_OUT_ODM)/firmware/secure_ta/antdtx.b07 \
-    vendor/oneplus/iceland/proprietary/odm/firmware/secure_ta/antdtx.b08:$(TARGET_COPY_OUT_ODM)/firmware/secure_ta/antdtx.b08 \
-    vendor/oneplus/iceland/proprietary/odm/firmware/secure_ta/antdtx.mdt:$(TARGET_COPY_OUT_ODM)/firmware/secure_ta/antdtx.mdt \
     vendor/oneplus/iceland/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/oneplus/iceland/proprietary/odm/firmware/tp/25926/FW_NT36536_HUAXING.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/25926/FW_NT36536_HUAXING.img \
     vendor/oneplus/iceland/proprietary/odm/firmware/tp/25926/FW_NT36536_HUAXING_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/25926/FW_NT36536_HUAXING_FAE.img \
@@ -1143,106 +474,19 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/camxfl300v2indices.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/camxfl300v2indices.bin \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/camxflcustom300indices.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/camxflcustom300indices.bin \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/chifdnodeconfig.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/chifdnodeconfig.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.chi.featurecompatibilityspecification.netrani.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.chi.featurecompatibilityspecification.netrani.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.chi.featurecompatibilityspecification.skyros.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.chi.featurecompatibilityspecification.skyros.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.chi.featurecompatibilityspecification.sm7750.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.chi.featurecompatibilityspecification.sm7750.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.chi.featurecompatibilityspecification.sm8750.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.chi.featurecompatibilityspecification.sm8750.bin \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.chi.featurecompatibilityspecification.sm8850.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.chi.featurecompatibilityspecification.sm8850.bin \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.ofe.profiledb.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.ofe.profiledb.default.bin \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.ofe.profiledb.sm8850.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.ofe.profiledb.sm8850.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.sensormodule.qtech_imx766_lpai_ois.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qtech_imx766_lpai_ois.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.sensormodule.qtech_imx766_ois.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qtech_imx766_ois.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.sensormodule.qtech_imx858.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qtech_imx858.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.sensormodule.qtech_s5kjn5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qtech_s5kjn5.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.sensormodule.qti_tpg0.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qti_tpg0.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.sensormodule.qti_tpg1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qti_tpg1.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.sensormodule.qti_tpg2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.qti_tpg2.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.sensormodule.shinetech_ov32c4c.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.shinetech_ov32c4c.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.sensormodule.sony_imx888.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sony_imx888.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.sensorsocmap.socid_map.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensorsocmap.socid_map.bin \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.default.canoe.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.canoe.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.molokai_default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.molokai_default.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.molokai_qtech_imx766.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.molokai_qtech_imx766.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.molokai_qtech_imx858.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.molokai_qtech_imx858.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.molokai_qtech_s5kjn5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.molokai_qtech_s5kjn5.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.molokai_shinetech_ov32c.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.molokai_shinetech_ov32c.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.molokai_sony_imx888.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.molokai_sony_imx888.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.molokai_tpg.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.molokai_tpg.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.molokai_tpg2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.molokai_tpg2.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.qtech_imx766.canoe.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.qtech_imx766.canoe.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.qtech_imx858.canoe.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.qtech_imx858.canoe.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.qtech_s5kjn5.canoe.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.qtech_s5kjn5.canoe.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.shinetech_ov32c.canoe.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.shinetech_ov32c.canoe.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.sony_imx888.canoe.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sony_imx888.canoe.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.tpg.art.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.tpg.art.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.tpg.canoe.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.tpg.canoe.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/com.qti.tuned.tpg2.canoe.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.tpg2.canoe.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/fairladyExfront_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fairladyExfront_3.pb \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/fairladyfront_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fairladyfront_3.pb \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/fdconfigoffline.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigoffline.bin \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/fdconfigsecure.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigsecure.bin \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
     vendor/oneplus/iceland/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/infinitifront_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/infinitifront_4.pb \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/lafafront_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/lafafront_4.pb \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/lighthousefront_1.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/lighthousefront_1.pb \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/macanExFront_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/macanExFront_4.pb \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/macanFront_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/macanFront_4.pb \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/mariofront_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/mariofront_3.pb \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/qfdserviceconfig.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/qfdserviceconfig.bin \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/redalertfront_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/redalertfront_3.pb \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/starcraftExFront_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/starcraftExFront_4.pb \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/starcraftFront_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/starcraftFront_4.pb \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/starcraftrfront_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/starcraftrfront_4.pb \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/swangoosefrontmain_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/swangoosefrontmain_3.pb \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/swangoosefrontsub_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/swangoosefrontsub_4.pb \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/u9bfront_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/u9bfront_4.pb \
-    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/u9front_4.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/u9front_4.pb
+    vendor/oneplus/iceland/proprietary/vendor/lib64/camera/qfdserviceconfig.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/qfdserviceconfig.bin
 
 PRODUCT_PACKAGES += \
-    com.qti.eeprom.gt24p128c2csli_imx766 \
-    com.qti.eeprom.irs2381c_polar \
-    com.qti.eeprom.p24c256c_imx766 \
-    com.qti.eeprom.truly_cmb433 \
-    com.qti.ois.bu63169gwz \
-    com.qti.ois.dw9784 \
-    com.qti.sensor.imx362 \
-    com.qti.sensor.imx363 \
-    com.qti.sensor.imx376 \
-    com.qti.sensor.imx386 \
-    com.qti.sensor.imx476 \
-    com.qti.sensor.imx481 \
-    com.qti.sensor.imx519 \
-    com.qti.sensor.imx563 \
-    com.qti.sensor.imx576 \
-    com.qti.sensor.imx586 \
-    com.qti.sensor.imx588 \
-    com.qti.sensor.imx686 \
-    com.qti.sensor.imx688 \
-    com.qti.sensor.imx766 \
-    com.qti.sensor.imx858 \
-    com.qti.sensor.imx888 \
-    com.qti.sensor.max7366_6dof \
-    com.qti.sensor.max7366_eyetrack \
-    com.qti.sensor.max7366_ov6211 \
-    com.qti.sensor.max7366_ov9282 \
-    com.qti.sensor.ov13855 \
-    com.qti.sensor.ov32c4c \
-    com.qti.sensor.ov64b40 \
-    com.qti.sensor.ov7251 \
-    com.qti.sensor.s5k2l7 \
-    com.qti.sensor.s5k2x5sp \
-    com.qti.sensor.s5k33dxx \
-    com.qti.sensor.s5k3m5 \
-    com.qti.sensor.s5k3p9 \
-    com.qti.sensor.s5k4h7 \
-    com.qti.sensor.s5k5e9yu05 \
-    com.qti.sensor.s5k5e9yx04 \
-    com.qti.sensor.s5khp1s \
-    com.qti.sensor.s5kjd1sp \
-    com.qti.sensor.s5kjn5 \
     com.qti.eisv2 \
     com.qti.eisv3 \
     com.qti.hvx.addconstant \
@@ -1426,7 +670,6 @@ PRODUCT_PACKAGES += \
     libcamxofeswl \
     libcamxqsatalgo \
     libcamxsettingsmanager \
-    libcamxsocketclientutil \
     libcamxsocketserverutil \
     libcamxswispiqmodule \
     libcamxswlipedriver \
@@ -1441,7 +684,6 @@ PRODUCT_PACKAGES += \
     libcolor-default \
     libcom.qti.chinodeutils \
     libdepthcomputation \
-    libeepromcutter \
     libhcsutils_vendor \
     libhdr10plus \
     libhdr_stub \
@@ -1556,43 +798,16 @@ PRODUCT_PACKAGES += \
     libcamxoemsatwrapper \
     com.oplus.mcx.linearmapper \
     camera.oemlayer.v2 \
-    lib2DSlender \
     libAECParamParser \
     libAF \
     libAFParamParser \
-    libAIMotion \
-    libAlgoInterface \
-    libAlgoProcess \
     libAncFilter \
-    libAncSegBaseSdk \
-    libAncSegmentSdk \
-    libBasicTonePhoto \
-    libBokehPre \
     libCS \
     libDarkColor \
-    libDocRectification \
     libEIS \
-    libEISLive \
-    libFDClite \
-    libFaceBeautyJni \
-    libFaceBeautyPre \
-    libFaceDistortionCorrection \
-    libHDRDetection \
     libHIS \
-    libImageWarpMask \
-    libImplicitWatermark \
     libMNN \
     libODNN \
-    libOPAlgoCamAIBeautyBodyDetection \
-    libOPAlgoCamAiBeautyFaceRetouchCn \
-    libOPAlgoCamAiUnifySkin \
-    libOPAlgoCamFaceBeautyCap \
-    libOPAlgoCamFaceRestore \
-    libOPAlgoCamGroupClassifier \
-    libOPAlgoCamPortraitHDRTransform \
-    libOPAlgoCamSegment \
-    libOPAlgoCamSinglePortrait \
-    libOPLUSMotionDetection \
     libOplusPDCore \
     libOpo_awb \
     libQnnCpu \
@@ -1603,10 +818,8 @@ PRODUCT_PACKAGES += \
     libQnnHtpV81Stub \
     libQnnSaver \
     libQnnSystem \
-    libRedeyeReduce \
     libSchedAssistExtImpl_vendor \
     libSpecRecon \
-    libUpScale \
     libVideoAIProc \
     libVideoDehaze \
     libVideoFaceLUT \
@@ -1615,73 +828,34 @@ PRODUCT_PACKAGES += \
     lib_geofencing \
     lib_rectify \
     libaecCustom \
-    libai_perception_scene_detect \
     libaiboost \
     libaiboost_llm \
-    libaiboost_qnn_external_delegate_te \
     libaiboost_qnn_sr \
     libaiboost_sr \
-    libaiboost_te \
     libaiboost_ubwc \
     libaiboost_wechat_qnn_sr \
     libaiboost_wechat_sr \
     libaisal \
     libaisd \
     libaisd_fullfov \
-    libaiseg \
-    libalCFR \
-    libalog \
-    libancbase_rt_fusion \
-    libapsdngsdk \
-    libapsexif \
-    libapsjpeg \
-    libapspng \
-    libapsultrahdr \
-    libapsyuv \
     libarc.ion \
     libarcsoft_dualcam_bokeh_api \
     libarcsoft_dualcam_bokeh_image \
     libarcsoft_dualcam_bokeh_preview \
-    libarcsoft_hdr_couple_api \
-    libarcsoft_high_dynamic_range_couple \
-    libarcsoft_long_exposure_capture \
-    libarcsoft_long_exposure_preview \
-    libarcsoft_preview_antibanding \
     libarcsoft_qnnhtp \
     libarcsoft_scbokeh_video \
-    libarcsoft_smart_denoise \
-    libarcsoft_tfm \
-    libarcsoft_turbo_fusion_raw_portrait_super_night \
-    libarcsoft_turbo_fusion_raw_super_night \
-    libarcsoft_turbo_hdr_grf \
-    libarcsoft_turbo_hdr_raw \
-    libarcsoft_turbo_hdr_raw_front \
-    libarcsoft_turbo_raw \
     libarcsoft_videoautozoom \
     libc++_shared \
     libcam.odnn.interface \
     libcam.oplus.3a.v4 \
-    libcreateFDCLitecachebin \
-    libcreateFDCcachebin \
-    libcreateRSPcachebin \
-    libcreatebin \
-    libcreatebinForBaseretouch \
-    libcreatebinForFaceretouch \
     libdlrmsc \
-    libdngsdkwrapper \
     libdolbyclstc \
-    libeffect_custom \
-    libexif-jpeg-aps \
-    libextendfile \
     libextensionlayer \
     libfovctrl \
-    libfusioninterpolation.arcsoft \
     libhcsfwk \
     libhcsutils \
     libhwconfigurationutil \
-    libimgClarityEvaluate \
     libmpbase \
-    libmsnativefilter \
     libmvgcommon \
     libmvgfusion \
     libnvram \
@@ -1699,12 +873,10 @@ PRODUCT_PACKAGES += \
     libosie \
     libosie_process \
     liboutils \
-    libpngwrapper \
     libqsh.utils \
     libremosaic_wrapper \
     libremosaiclib \
     libsat \
-    libsaveshaderbin \
     libsharebuffer \
     libsharebuffer_impl \
     libssd_det \
@@ -1713,10 +885,7 @@ PRODUCT_PACKAGES += \
     libtfa98xx \
     libtrace \
     libvega_common \
-    libwatermark_photo \
     libwechatsr_ubwc \
-    libwrapper_te \
-    libyuvwrapper \
     libzlib \
     libQnnHtp.oplusmss \
     libQnnHtpPrepare.oplusmss \
