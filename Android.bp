@@ -8790,6 +8790,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libutils",
+                "libhwconfigurationutil",
                 "libc",
                 "libm",
                 "libdl",
@@ -10708,6 +10709,7 @@ cc_prebuilt_library_shared {
                 "libcamxfdengine",
                 "libcutils",
                 "libcamxsocketserverutil",
+                "libhwconfigurationutil",
                 "liblog",
                 "libc",
                 "libm",
@@ -12059,6 +12061,31 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libaiboost_litert",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/aiframe/libaiboost_litert.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "aiframe",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libaiboost_qnn_external_delegate.aiframe",
     stem: "libaiboost_qnn_external_delegate",
     owner: "oneplus",
@@ -12564,6 +12591,7 @@ cc_prebuilt_library_shared {
                 "com.qti.chi.override",
                 "libhwconfigurationutil",
                 "libcamxcoreutils",
+                "liboutils",
                 "android.hardware.graphics.common@1.0",
                 "android.hardware.graphics.common@1.1",
                 "android.hardware.graphics.common@1.2",
@@ -12606,6 +12634,7 @@ cc_prebuilt_library_shared {
                 "libui",
                 "libextensionlayer",
                 "libcamxcoreutils",
+                "liboutils",
                 "android.hardware.graphics.common@1.0",
                 "android.hardware.graphics.common@1.1",
                 "android.hardware.graphics.common@1.2",
@@ -12645,6 +12674,7 @@ cc_prebuilt_library_shared {
                 "libextensionlayer",
                 "libhwconfigurationutil",
                 "libcamxcoreutils",
+                "liboutils",
                 "android.hardware.graphics.common@1.0",
                 "android.hardware.graphics.common@1.1",
                 "android.hardware.graphics.common@1.2",
@@ -12925,6 +12955,7 @@ cc_prebuilt_library_shared {
                 "libui",
                 "libcamximageformatutils",
                 "libcamxcommonutils",
+                "liboutils",
                 "com.qti.chi.override",
                 "liblog",
                 "libc",
@@ -12968,6 +12999,7 @@ cc_prebuilt_library_shared {
                 "libui",
                 "libcamximageformatutils",
                 "libcamxcommonutils",
+                "liboutils",
                 "com.qti.chi.override",
                 "liblog",
                 "libc",
@@ -17992,6 +18024,7 @@ cc_prebuilt_binary {
                 "android.frameworks.stats-V1-ndk",
                 "libbinder_ndk",
                 "libutils",
+                "libcutils",
                 "libcamera_metadata",
                 "libhardware",
                 "liblog",

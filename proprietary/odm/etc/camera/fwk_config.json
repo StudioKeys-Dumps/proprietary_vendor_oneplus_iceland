@@ -749,11 +749,12 @@
         "thirdPartyAppLimitActivityHeightForCam1API2":960,
         "app_disable_fb_activity": [
             "com.whatsapp.camera.CameraActivity",
+            "com.whatsapp.camera.ui.CameraActivity",
             "com.whatsapp.HomeActivity",
             "com.whatsapp.qrcode.contactqr.ContactQrActivity",
+            "com.whatsapp.qrcode.ui.contactqr.ContactQrActivity",
             "com.whatsapp.statuscomposer.ConsolidatedStatusComposerActivity",
-            "com.whatsapp.status.composer.ConsolidatedStatusComposerActivity",
-            "com.whatsapp.camera.ui.CameraActivity"
+            "com.whatsapp.status.composer.ConsolidatedStatusComposerActivity"
         ],
         "activityName": [
             "com.whatsapp.voipcalling.VoipActivityV2"
